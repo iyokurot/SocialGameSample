@@ -1,0 +1,19 @@
+{
+    "target": [
+        {
+            "itemid": 0,
+            "modelname": "Sphere",
+            "rarelity": 1
+        },
+        {
+            "itemid": 1,
+            "modelname": "SphereSR",
+            "rarelity": 2
+        },
+        {
+            "itemid": 2,
+            "modelname": "SphereSSR",
+            "rarelity": 3
+        }
+    ]
+}
