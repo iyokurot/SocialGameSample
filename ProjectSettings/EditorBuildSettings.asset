@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GatyaLoad.unity
     guid: 33d816dc697da404089d0d8c370d64bf
+  - enabled: 1
+    path: Assets/Scenes/RunningGame.unity
+    guid: d4ec73b771c5fc942bc107b110dc93a3
+  - enabled: 1
+    path: Assets/Scenes/VoiceGame.unity
+    guid: 4da762e81417a8149bb7306d8c7a74a4
   m_configObjects: {}

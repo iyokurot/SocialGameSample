@@ -26,6 +26,7 @@ public class FirstController : MonoBehaviour {
 		userdata.jewel=0;
 		userdata.coin=0;
 		userdata.level=1;
+		userdata.character="cecil_sharo";
 		UserDataLoader.userdata=userdata;
 		//保存
 		UserDataLoader.writeData();

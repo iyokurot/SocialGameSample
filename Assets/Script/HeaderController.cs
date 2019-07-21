@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class HeaderController : MonoBehaviour {
 
@@ -12,7 +13,9 @@ public class HeaderController : MonoBehaviour {
 
 	public GameObject jewelList;
 	public GameObject question;
+	public GameObject menu;
 	private int jewelcost=0;
+	
 
 	// Use this for initialization
 	void Start () {
@@ -28,6 +31,11 @@ public class HeaderController : MonoBehaviour {
 	}
 	private void SetJewels(){
 		jewel.text=UserDataLoader.userdata.jewel.ToString();
+	}
+
+	//メニューを開く
+	public void onClickMenu(){
+		menu.SetActive(true);
 	}
 	public void onClickBuyjewels(){
 		jewelList.SetActive(true);
@@ -47,4 +55,15 @@ public class HeaderController : MonoBehaviour {
 	public void onClickBuyNo(){
 		question.SetActive(false);
 	}
+
+	//メニューを閉じる
+	public void onClickCloseMenu(){
+		menu.SetActive(false);
+	}
+
+	//タイトルへ
+	public void onClickBackTitle(){
+		SceneManager.LoadScene("Title");
+	}
+
 }

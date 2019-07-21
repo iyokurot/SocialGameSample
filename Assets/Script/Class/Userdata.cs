@@ -8,4 +8,5 @@ public class Userdata{
 	public int level;
 	public int jewel;
 	public int coin;
+	public string character;
 }

@@ -6,29 +6,14 @@ using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class HomeController : MonoBehaviour {
-	public GameObject character;
 	private Animator animater;
 
-	/*
-	public Text username;
-	public Text level;
-	public Text jewel;
-	public Text coin;
-
-	public GameObject jewelList;
-	public GameObject question;
-	private int jewelcost=0;
-	*/
+	private GameObject character;
 
 	// Use this for initialization
 	void Start () {
+		loadCharacter();
 		animater=character.GetComponent<Animator>();
-		/*
-		username.text=UserDataLoader.userdata.name;
-		level.text=UserDataLoader.userdata.level.ToString();
-		SetJewels();
-		coin.text=UserDataLoader.userdata.coin.ToString();
-		*/
 	}
 	
 	// Update is called once per frame
@@ -48,34 +33,25 @@ public class HomeController : MonoBehaviour {
 			animater.SetTrigger("JumpingTrigger");
 		}
 	}
-	/*
-	private void SetJewels(){
-		jewel.text=UserDataLoader.userdata.jewel.ToString();
-	}
-	
 
-	public void onClickBuyjewels(){
-		jewelList.SetActive(true);
+	//ホームキャラロード
+	private void loadCharacter(){
+		var homechara=UserDataLoader.userdata.character;//"cecil_sharo";
+		var chara=Resources.Load("chara/"+homechara) as GameObject;
+		character=GameObject.Instantiate(chara) as GameObject;
+		
 	}
-	*/
+
 	public void onClicktoGatya(){
 		SceneManager.LoadScene("GatyaTop");
 	}
-/*
-	public void buyjewel(int jewels){
-		question.SetActive(true);
-		jewelcost=jewels;
+
+	public void onClicktoRunGame(){
+		SceneManager.LoadScene("RunningGame");
 	}
 
-	public void onClickBuyYes(){
-		//課金
-		UserDataLoader.userdata.jewel+=jewelcost;
-		question.SetActive(false);
-		SetJewels();
+	public void onClicktoVoiceGame(){
+		SceneManager.LoadScene("VoiceGame");
 	}
-	public void onClickBuyNo(){
-		question.SetActive(false);
-	}
-	*/
 
 }
