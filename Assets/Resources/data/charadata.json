@@ -1,0 +1,19 @@
+{
+    "target": [
+        {
+            "itemid": 1,
+            "name": "cecil_sharo",
+            "rarelity": 1
+        },
+        {
+            "itemid": 2,
+            "name": "TohokuZunko",
+            "rarelity": 2
+        },
+        {
+            "itemid": 3,
+            "name": "shinobu",
+            "rarelity": 3
+        }
+    ]
+}
