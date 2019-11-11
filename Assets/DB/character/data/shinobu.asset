@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13bea2eae82d2a409cd27cac9490018, type: 3}
+  m_Name: shinobu
+  m_EditorClassIdentifier: 
+  id: 3
+  modelname: shinobu
+  model: {fileID: 1419776323546178, guid: 79c0ebe37f0ef4646af320d21e87bd15, type: 2}
+  miniSprite: {fileID: 21300000, guid: 97777de3375ae4848a50f4b857d5f994, type: 3}
+  bigSprite: {fileID: 21300000, guid: 77c4996139f50b449b029f7f066206a1, type: 3}
+  HP: 2000
+  smallAT: 200
+  bigAT: 900
+  subTitle: "\u3071\u306A\u3044\u306E"
+  charaName: "\u5FCD"
+  skillName: "\u602A\u7570\u6BBA\u3057"
+  skillEffect: "\u6575\u5168\u4F53\u306B1000\u30C0\u30E1\u30FC\u30B8"
+  skillImage: {fileID: 0}
+  rarelity: 2

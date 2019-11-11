@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f13bea2eae82d2a409cd27cac9490018, type: 3}
+  m_Name: cecil_girl
+  m_EditorClassIdentifier: 
+  id: 2
+  modelname: samplegirl2
+  model: {fileID: 1642106633932696, guid: 50973a52df37bce429017b457a44ff66, type: 2}
+  miniSprite: {fileID: 21300000, guid: cf6a659814f119e44a8f32a394b01bdf, type: 3}
+  bigSprite: {fileID: 21300000, guid: d8452a375ef79da489df4e332c0f1899, type: 3}
+  HP: 800
+  smallAT: 150
+  bigAT: 700
+  subTitle: "\u30A2\u30AF\u30C6\u30A3\u30D6\u30AC\u30FC\u30EB"
+  charaName: "\u30A2\u30B9\u30CA"
+  skillName: "\u30D2\u30FC\u30EB"
+  skillEffect: "100\u56DE\u5FA9\u3059\u308B"
+  skillImage: {fileID: 21300000, guid: 9ce25bb86897079448a0dabb82852f42, type: 3}
+  rarelity: 1
