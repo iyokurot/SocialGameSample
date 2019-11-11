@@ -26,4 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VoiceGame.unity
     guid: 4da762e81417a8149bb7306d8c7a74a4
+  - enabled: 1
+    path: Assets/Scenes/BattleMode.unity
+    guid: 4104e2e5eff85034bbf8d3cac02beca9
+  - enabled: 1
+    path: Assets/Scenes/CharacterMode.unity
+    guid: 1b2cd887d31a2544eadf72e8ee88e9c5
+  - enabled: 1
+    path: Assets/Scenes/AllCharas.unity
+    guid: 5243cbe8275df194296eeba28897ce72
+  - enabled: 1
+    path: Assets/Scenes/TeamCharas.unity
+    guid: 4f018f32d89b87542bf981016ee9589a
   m_configObjects: {}

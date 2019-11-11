@@ -1,16 +1,40 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-class Enemydata {
-	public string modelname; //読み込みモデル名
-	public int typeflag; //物理or魔法
-	public int enemyHP; //敵体力
-	public int enemyAT; //敵攻撃
-	public Enemydata (string m, int t, int hp, int at) {
-		modelname = m;
-		typeflag = t;
-		enemyHP = hp;
-		enemyAT = at;
+//敵DB用データクラス
+[Serializable]
+[CreateAssetMenu (fileName = "enemy", menuName = "CreateEnemy")]
+class Enemydata : ScriptableObject {
+	public enum EnemyType {
+		Normal,
+		Magic
+	}
+
+	[SerializeField]
+	private string modelname; //読み込みモデル名
+	[SerializeField]
+	private GameObject model;
+	[SerializeField]
+	private EnemyType type; //属性
+	[SerializeField]
+	private int enemyHP; //敵体力
+	[SerializeField]
+	private int enemyAT; //敵攻撃
+	public string GetModelname () {
+		return modelname;
+	}
+	public GameObject GetModel () {
+		return model;
+	}
+	public EnemyType GetType () {
+		return type;
+	}
+	public int GetEnemyHP () {
+		return enemyHP;
+	}
+	public int GetEnemyAT () {
+		return enemyAT;
 	}
 }

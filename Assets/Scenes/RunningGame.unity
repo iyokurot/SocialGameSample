@@ -383,6 +383,7 @@ MonoBehaviour:
   timetext: {fileID: 1516005871}
   misstext: {fileID: 1426411029}
   scoretext: {fileID: 206967565}
+  characterDataBase: {fileID: 11400000, guid: 704414c845cdef1419e8d3ae39780c12, type: 2}
 --- !u!4 &508436881
 Transform:
   m_ObjectHideFlags: 0
