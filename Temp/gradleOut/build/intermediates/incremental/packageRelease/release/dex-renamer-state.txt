@@ -1,4 +1,0 @@
-#Sun Jul 21 23:04:34 JST 2019
-base.0=C\:\\Users\\03yuk\\Desktop\\private\\Unity\\SocialGameSample\\Temp\\gradleOut\\build\\intermediates\\transforms\\dex\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex
