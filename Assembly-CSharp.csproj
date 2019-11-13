@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
      <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -429,6 +430,7 @@
      <None Include="Assets\GreenForest\PostProcessing\Resources\Shaders\Common.cginc" />
      <None Include="Assets\GreenForest\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
      <None Include="Assets\GreenForest\PostProcessing\Editor Resources\UI\Trackball.shader" />
+     <None Include="Assets\AllSkyFree\AllSkyFree_Readme.txt" />
      <None Include="Assets\ImportItems\VRM\UniVRM\Resources\Shaders\VRMUnlitTexture.shader" />
      <None Include="Assets\ImportItems\TohokuZunko\Models\Shaders\Sources\Shaders\Toony-LightedOutline.shader" />
      <None Include="Assets\ImportItems\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
