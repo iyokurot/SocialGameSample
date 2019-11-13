@@ -11,6 +11,10 @@ public class Candy : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		this.transform.Translate (0, 0, 0.3f);
+		this.transform.Translate (0, 0, 0.5f);
+	}
+	void OnTriggerEnter(Collider other)
+	{
+		Debug.Log(other);
 	}
 }

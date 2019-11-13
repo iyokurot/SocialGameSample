@@ -143,7 +143,9 @@ public class VoiceController : MonoBehaviour {
 				if (lockon && volume >= 10) {
 					attackonEnemy (bigAT);
 				} else if (lockon && Input.GetMouseButtonUp (0)) {
-					GameObject takecandy = GameObject.Instantiate (candy, new Vector3 (0, 2, 0), Quaternion.identity) as GameObject;
+					GameObject takecandy = GameObject.Instantiate (
+						candy,
+						 new Vector3 (character.transform.position.x*1.1f, 1.5f, character.transform.position.z*1.1f), Quaternion.identity) as GameObject;
 					takecandy.transform.Rotate (0, camera.transform.localEulerAngles.y, 90);
 					attackonEnemy (smallAT);
 				}
