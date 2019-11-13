@@ -153,7 +153,7 @@ dfd33ff9ae3ce8d7ca1f22b475ec2387 UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 96f3ea9f23b6f08e60710ebb4af49174 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 b68eb66942af5e7f1c406c1f9a609006 Assembly-CSharp.dll:.ContentCharaData
 5c5541c980e7ea492d5d584ff04e1163 Assembly-CSharp.dll:UnityChan.CameraController
-3b16b6d5a9f6dcd837f4363c1833b0a6 Assembly-CSharp.dll:.VoiceController
+4fdc48ae96a076d06094327be00fda92 Assembly-CSharp.dll:.VoiceController
 5594f14661ba44da115f3c86cc897240 Assembly-CSharp.dll:UnityChan.IdleChanger
 f16835701e71dd5d6fb1fed4b7aff1d8 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 0087fb1efba4e24732e91ff17af020ee Assembly-CSharp.dll:UnityChan.SpringManager
@@ -172,6 +172,7 @@ e0d9fc1bb03a9edd8f6d6a790b386a62 Assembly-CSharp.dll:VRM.Blinker
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.UserDataLoader
 1ab2889ce3fea6ba2fcde34d184642ab Assembly-CSharp.dll:.Enemydata
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:UnityChan.SplashScreen
+486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.Candy
 7f351971bcdeda1bf35738dbb2d78f5d Assembly-CSharp.dll:.TopController
 8bfb2cd376baa0aef57093e71373dbe4 Assembly-CSharp.dll:VRM.BlendShapeClip
 a53c4e438509831a99427ce9d02eec24 Assembly-CSharp.dll:.HeaderController
@@ -246,3 +247,6 @@ eba22b52ae82f177f2a34f0906950a43 Assembly-CSharp.dll:UnityChan.UnityChanControlS
 486cd95c82d8305219c352c06b776e1f Assembly-CSharp.dll:.ContentController
 9bd054b86eec871885170863d89ef639 Assembly-CSharp.dll:.GatyaLoadController
 f524b165517d9351e125b4bf7ae1e1c5 Assembly-CSharp.dll:VRM.LookTarget
+98f0dfd2378729c082be8d0dd8ea0d71 Assembly-CSharp.dll:UnityEngine.PostProcessing.PostProcessingBehaviour
+e2bc6ef764fff21ff1e9db5ef924d331 Assembly-CSharp.dll:.ExampleWheelController
+713f094d38dde97adcca89d1fad847c0 Assembly-CSharp.dll:UnityEngine.PostProcessing.PostProcessingProfile

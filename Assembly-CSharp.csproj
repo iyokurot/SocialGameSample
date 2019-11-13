@@ -53,7 +53,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AllSkyFree\AllSkyFree_Menu.cs" />
      <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
      <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
      <Compile Include="Assets\GreenForest\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -386,7 +385,6 @@
      <Compile Include="Assets\Script\Enemy.cs" />
      <Compile Include="Assets\Script\EnemyOnCollision.cs" />
      <Compile Include="Assets\Script\enemyscript.cs" />
-     <Compile Include="Assets\Script\ServerTestController.cs" />
      <Compile Include="Assets\Script\UserDataLoader.cs" />
      <None Include="Assets\GreenForest\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\ImportItems\unity-chan!\Unity-chan! Model\Art\UnityChanShader\Shader\Unitychan_chara_eye.shader" />
